@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: GPL-2.0
+
 /* hello_version.c */
 #include <linux/init.h>
 #include <linux/module.h>
