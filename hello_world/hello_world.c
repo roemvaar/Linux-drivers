@@ -31,5 +31,5 @@ module_init(hello_world_init);
 module_exit(hello_world_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Roberto Valenzuela");
+MODULE_AUTHOR("Roberto Valenzuela <valenzuelarober@gmail.com>");
 MODULE_DESCRIPTION("The Hello World Kernel Module by Roberto");
