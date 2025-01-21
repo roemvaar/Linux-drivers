@@ -28,6 +28,6 @@ static void __exit version_param_exit(void)
 module_init(version_param_init);
 module_exit(version_param_exit);
 
+MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Roberto Valenzuela <valenzuelarober@gmail.com>");
 MODULE_DESCRIPTION("Module for greeting and get version");
-MODULE_LICENSE("GPL");

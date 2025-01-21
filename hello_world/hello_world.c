@@ -14,7 +14,7 @@
  */
 static int hello_world_init(void)
 {
-    printk(KERN_ALERT "Hello World from Kernel Module by Roberto\n");
+    pr_alert("Hello World from Kernel Module by Roberto\n");
 
     return 0;
 }
@@ -24,7 +24,7 @@ static int hello_world_init(void)
  */
 static void hello_world_exit(void)
 {
-    printk(KERN_ALERT "See You Later, Alligator!\n");
+    pr_alert("See You Later, Alligator!\n");
 }
 
 module_init(hello_world_init);

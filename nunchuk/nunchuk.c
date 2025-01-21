@@ -257,5 +257,5 @@ static struct i2c_driver wiichuk_i2c_driver = {
 module_i2c_driver(wiichuk_i2c_driver);
 
 MODULE_LICENSE("GPL");
-MODULE_DESCRIPTION("Nintendo Wii Nunchuk (wiichuk) I2C driver");
 MODULE_AUTHOR("Roberto Valenzuela <valenzuelarober@gmail.com>");
+MODULE_DESCRIPTION("Nintendo Wii Nunchuk (wiichuk) I2C driver");
